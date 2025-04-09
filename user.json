@@ -1,0 +1,41 @@
+{
+    "Ali Rezaei": {
+        "password": "Ali@1234"
+    },
+    "Hossein Salehi": {
+        "password": "1720232245",
+        "cart": {
+            "product": [
+                {
+                    "name": "Tea",
+                    "num": 3,
+                    "price": 120000,
+                    "total_cash": 360000,
+                    "brand": "Lipton"
+                }
+            ]
+        },
+        "total": 360000
+    },
+    "Mehdi Mohammadi": {
+        "password": "Mehdi#890"
+    },
+    "ali": {
+        "password": "12345"
+    },
+    "esi": {
+        "password": "6637"
+    },
+    "javad": {
+        "password": "18829374"
+    },
+    "abolfazl": {
+        "password": "1395"
+    },
+    "Hossein": {
+        "password": "1234"
+    },
+    "": {
+        "password": ""
+    }
+}

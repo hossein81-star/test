@@ -1,0 +1,222 @@
+{
+    "Milk": {
+        "name": "Milk",
+        "category": "Food",
+        "brand": "Kalleh",
+        "weight": "1 Liter",
+        "expiration_date": "2024-07-31",
+        "price": 50000,
+        "stock": 5
+    },
+    "Rice": {
+        "name": "Rice",
+        "category": "Food",
+        "brand": "Hashemi",
+        "weight": "5 kg",
+        "expiration_date": "2026-02-20",
+        "price": 750000,
+        "stock": 5
+    },
+    "Cooking Oil": {
+        "name": "Cooking Oil",
+        "category": "Food",
+        "brand": "Ladan",
+        "weight": "1.5 Liter",
+        "expiration_date": "2024-10-06",
+        "price": 120000,
+        "stock": 5
+    },
+    "Eggs": {
+        "name": "Eggs",
+        "category": "Food",
+        "brand": "Local",
+        "weight": "12 Pieces",
+        "expiration_date": "2024-09-10",
+        "price": 90000,
+        "stock": 5
+    },
+    "Tea": {
+        "name": "Tea",
+        "category": "Food",
+        "brand": "Lipton",
+        "weight": "500 g",
+        "expiration_date": "2025-11-15",
+        "price": 120000,
+        "stock": 2
+    },
+    "Smartphone": {
+        "name": "Smartphone",
+        "category": "Electronics",
+        "brand": "Samsung",
+        "model": "Galaxy A54",
+        "warranty": "18 Months",
+        "price": 25000000,
+        "stock": 5
+    },
+    "Laptop": {
+        "name": "Laptop",
+        "category": "Electronics",
+        "brand": "Asus",
+        "model": "ZenBook 14",
+        "warranty": "24 Months",
+        "price": 45000000,
+        "stock": 5
+    },
+    "Wireless Headphones": {
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "brand": "Sony",
+        "model": "WH-1000XM4",
+        "warranty": "12 Months",
+        "price": 12000000,
+        "stock": 5
+    },
+    "Smartwatch": {
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "brand": "Apple",
+        "model": "Apple Watch 8",
+        "warranty": "12 Months",
+        "price": 18000000,
+        "stock": 5
+    },
+    "Gaming Console": {
+        "name": "Gaming Console",
+        "category": "Electronics",
+        "brand": "Sony",
+        "model": "PlayStation 5",
+        "warranty": "12 Months",
+        "price": 35000000,
+        "stock": 5
+    },
+    "T-Shirt": {
+        "name": "T-Shirt",
+        "category": "Clothing",
+        "brand": "Nike",
+        "size": "L",
+        "material": "Cotton",
+        "price": 300000,
+        "stock": 5
+    },
+    "Jeans": {
+        "name": "Jeans",
+        "category": "Clothing",
+        "brand": "Levis",
+        "size": "32",
+        "material": "Denim",
+        "price": 700000,
+        "stock": 5
+    },
+    "Jacket": {
+        "name": "Jacket",
+        "category": "Clothing",
+        "brand": "Adidas",
+        "size": "M",
+        "material": "Polyester",
+        "price": 1500000,
+        "stock": 5
+    },
+    "Sneakers": {
+        "name": "Sneakers",
+        "category": "Clothing",
+        "brand": "Puma",
+        "size": "42",
+        "material": "Leather",
+        "price": 1200000,
+        "stock": 5
+    },
+    "Scarf": {
+        "name": "Scarf",
+        "category": "Clothing",
+        "brand": "Zara",
+        "size": "One Size",
+        "material": "Wool",
+        "price": 250000,
+        "stock": 5
+    },
+    "Refrigerator": {
+        "name": "Refrigerator",
+        "category": "Home Appliances",
+        "brand": "Bosch",
+        "model": "NoFrost 400L",
+        "warranty": "36 Months",
+        "price": 90000000,
+        "stock": 5
+    },
+    "Washing Machine": {
+        "name": "Washing Machine",
+        "category": "Home Appliances",
+        "brand": "LG",
+        "model": "TurboWash 7kg",
+        "warranty": "24 Months",
+        "price": 75000000,
+        "stock": 5
+    },
+    "Microwave": {
+        "name": "Microwave",
+        "category": "Home Appliances",
+        "brand": "Samsung",
+        "model": "Solo 25L",
+        "warranty": "12 Months",
+        "price": 30000000,
+        "stock": 5
+    },
+    "Vacuum Cleaner": {
+        "name": "Vacuum Cleaner",
+        "category": "Home Appliances",
+        "brand": "Dyson",
+        "model": "V15 Detect",
+        "warranty": "24 Months",
+        "price": 50000000,
+        "stock": 5
+    },
+    "Blender": {
+        "name": "Blender",
+        "category": "Home Appliances",
+        "brand": "Philips",
+        "model": "HR2228",
+        "warranty": "12 Months",
+        "price": 12000000,
+        "stock": 5
+    },
+    "The Pragmatic Programmer": {
+        "name": "The Pragmatic Programmer",
+        "category": "Books",
+        "author": "Andrew Hunt",
+        "genre": "Technology",
+        "price": 800000,
+        "stock": 5
+    },
+    "Clean Code": {
+        "name": "Clean Code",
+        "category": "Books",
+        "author": "Robert C. Martin",
+        "genre": "Technology",
+        "price": 750000,
+        "stock": 5
+    },
+    "Atomic Habits": {
+        "name": "Atomic Habits",
+        "category": "Books",
+        "author": "James Clear",
+        "genre": "Self-help",
+        "price": 500000,
+        "stock": 5
+    },
+    "The Power of Now": {
+        "name": "The Power of Now",
+        "category": "Books",
+        "author": "Eckhart Tolle",
+        "genre": "Spirituality",
+        "price": 600000,
+        "stock": 5
+    },
+    "Deep Work": {
+        "name": "Deep Work",
+        "category": "Books",
+        "author": "Cal Newport",
+        "genre": "Productivity",
+        "price": 650000,
+        "stock": 5
+    }
+}
