@@ -45,7 +45,7 @@ class users_class:
 
     # Function to handle user login or registration
     def regester(self):
-        print("⚠️ You need to register first!")
+        print("You need to register first!")
         self.open_user_json()
         self.user_name = input("enter usrer name: ")
         if self.user_name in self.user_list:
