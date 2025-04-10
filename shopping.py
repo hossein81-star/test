@@ -30,7 +30,7 @@ class users_class:
             password = input("🔑 Enter your password (or type 'exit' to quit): ")
 
             if password.lower() == "exit":
-                print("🚪 Exiting... Please wait...")
+                print("🚪 Please wait...")
                 time.sleep(1)
                 break
 
