@@ -47,18 +47,28 @@ class users_class:
     def regester(self):
         print("You need to register first!")
         self.open_user_json()
-        self.user_name = input("enter usrer name: ")
+        self.user_name = input("Enter user name: ")
+
         if self.user_name in self.user_list:
             # If user already exists, verify password
             is_user = self.check_password(self.user_name)
             return is_user
         else:
-            # If user doesn't exist, prompt for registration
-            print("\n" + "=" * 40)
-            print("📝 Please Register:")
-            print("=" * 40)
-            self.isregestered = self.regester_new_user()
-            self.user_name = None
+            # If user doesn't exist, ask if they want to register
+            print(f"User '{self.user_name}' not found.")
+            choice = input("Do you want to register? (y/n): ").strip().lower()
+
+            if choice == 'y':
+                print("\n" + "=" * 40)
+                print("📝 Please Register:")
+                print("=" * 40)
+                self.isregestered = self.regester_new_user()
+
+                return self.isregestered
+            else:
+                print("❌ Registration cancelled. Goodbye!")
+                self.user_name = None
+                return False
 
     # Function to register a new user
     def regester_new_user(self):
@@ -251,3 +261,4 @@ class shopping_cart:
 users = users_class()
 shop_cart = shopping_cart(users)
 products = product(shop_cart, users)
+products.show_product_category()
