@@ -47,7 +47,8 @@ class users_class:
     def regester(self):
         print("You need to register first!")
         self.open_user_json()
-        self.user_name = input("enter usrer name: ")
+        self.user_name = input("Enter user name: ")
+
         if self.user_name in self.user_list:
             # If user already exists, verify password
             is_user = self.check_password(self.user_name)
@@ -260,3 +261,4 @@ class shopping_cart:
 users = users_class()
 shop_cart = shopping_cart(users)
 products = product(shop_cart, users)
+products.show_product_category()
