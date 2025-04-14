@@ -53,12 +53,21 @@ class users_class:
             is_user = self.check_password(self.user_name)
             return is_user
         else:
-            # If user doesn't exist, prompt for registration
-            print("\n" + "=" * 40)
-            print("📝 Please Register:")
-            print("=" * 40)
-            self.isregestered = self.regester_new_user()
-            self.user_name = None
+            # If user doesn't exist, ask if they want to register
+            print(f"User '{self.user_name}' not found.")
+            choice = input("Do you want to register? (y/n): ").strip().lower()
+
+            if choice == 'y':
+                print("\n" + "=" * 40)
+                print("📝 Please Register:")
+                print("=" * 40)
+                self.isregestered = self.regester_new_user()
+
+                return self.isregestered
+            else:
+                print("❌ Registration cancelled. Goodbye!")
+                self.user_name = None
+                return False
 
     # Function to register a new user
     def regester_new_user(self):
